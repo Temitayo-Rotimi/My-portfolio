@@ -313,7 +313,7 @@ header nav a:hover, footer nav a:hover{
         position: absolute;
         top: 32px;
         right: 20px;
-        color: rgb(0, 0, 0); 
+        color: rgb(255, 255, 255); 
     }
     .menu-checkbox:checked ~ .menu {
         display: block;
