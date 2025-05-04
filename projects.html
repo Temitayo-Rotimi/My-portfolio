@@ -6,6 +6,7 @@
     <meta name="Description" content="Temitayo Rotimi - Showcasing web development, UI/UX design, and cybersecurity projects.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="CSS/style.css">
@@ -36,7 +37,7 @@
             </nav>
         </header>
         <body>
-            <section class="container my-5" id="projects">
+            <section class="container my-5" id="projects" data-aos="fade-left">
                 <div class="row g-4 justify-content-center">
                     <!-- Project Card 1 -->
                   
@@ -85,23 +86,23 @@
             <section class="container my-5 maincontainer bg-white">
                 <h2 class="text-center mb-5 fw-bold">What People Say</h2>
                 <div class="row justify-content-center gap-4">
-                    <div class="col-md-4 mb-3 text-center">
+                    <div class="col-md-4 mb-3 text-center" data-aos="fade-up">
                         <p class="p-3 shadow-lg rounded testimonial2">"Temitayo transformed our idea into a secure, efficient web
                              solution with seamless functionality. Very dependable and highly skilled in back-end development."</p>
                         <p><strong>Benny.</strong> — UI/UX Designer</p>
                     </div>
                     <div class="col-md-4 mb-3 text-center">
-                        <p class="p-3 shadow-lg rounded testimonial2">"From planning to deployment, Temitayo ensured smooth communication and 
+                        <p class="p-3 shadow-lg rounded testimonial2" data-aos="fade-up">"From planning to deployment, Temitayo ensured smooth communication and 
                             delivered robust back-end solutions efficiently."</p>
                         <p><strong>Raymond Okoh.</strong> — Product Manager</p>
                     </div>
                     <div class="col-md-4 mb-3 text-center">
-                        <p class="p-3 shadow-lg rounded testimonial2">"His expertise in server-side development and system integration played 
+                        <p class="p-3 shadow-lg rounded testimonial2" data-aos="fade-up">"His expertise in server-side development and system integration played 
                             a crucial role in bringing our project to life—on time and within budget".</p>
                         <p><strong>Anuoluwapo O.</strong> — Student</p>
                     </div>
                     <div class="col-md-4 mb-3 text-center">
-                        <p class="p-3 shadow-lg rounded testimonial2">"Professional, solution-driven, and consistently delivers on time.
+                        <p class="p-3 shadow-lg rounded testimonial2" data-aos="fade-up">"Professional, solution-driven, and consistently delivers on time.
                              I highly recommend his backend development services for any robust web project."</p>
                         <p><strong>Ayomide A.</strong> — Cybersecurity Analyst</p>
                     </div>
@@ -115,8 +116,15 @@
             </section>
             
 
-            <script src="JS/bootstrap.bundle.min.js"></script>
-            <script src="JS/script1.js"></script>
+            <script src="JS/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+    AOS.init({
+        duration: 1700,  // Duration of the animation
+        once: false,     // Make sure animation happens only once
+        mirror: true,
+    });
+        </script>
         </body>
           
         <footer class="footer bg-dark text-white py-4">
