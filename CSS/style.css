@@ -129,7 +129,20 @@ header nav a:hover, footer nav a:hover{
     margin: 10px;
     margin-top: 10px;   
 }
-
+.logo-container-project{
+    background: linear-gradient(145deg, #000000, #161d26); /* Smooth dark background blend */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1), inset 0 0 8px rgba(255, 255, 255, 0.02);
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 90px;
+    margin: 0;
+    margin-top: 0px;   
+    transition: all 0.5s ease;
+}
+.logo-container-project figcaption {
+    color: #000000;
+    background-color: #ffffff
+} 
 .logo{
     height: 70px;
     margin: 0;
