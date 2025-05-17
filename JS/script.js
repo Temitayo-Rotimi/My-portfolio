@@ -4,7 +4,7 @@
 // Hero sections
 const messages = [
     "Temitayo Rotimi",
-    "A Passionate Back-End Developer",
+    "A Back-End Developer",
     "Computer Engineer"
   ];
   
